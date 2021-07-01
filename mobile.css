@@ -1,0 +1,102 @@
+/* navbar */
+#navbar a img{
+  float: none;
+  display: block;
+  margin: auto;
+  padding-top: 3px;
+}
+
+#navbar ul, #navbar ul li{
+  float: none;
+}
+
+#navbar ul li a{
+  padding: 7px;
+  border-bottom: #444 dotted 1px;
+}
+
+.showcase{
+  height: 100%;
+  /* text-align: justify; */
+}
+
+.showcase h1{
+  font-size: 48px;
+}
+
+.btn{
+  border-radius: 35px;
+}
+
+#info{
+  height: 100%;
+}
+/* info */
+#info .image{
+  display: none;
+}
+
+#info .content{
+  float: none;
+  width: 100%;
+}
+
+/* boxes both in contact and homepage */
+.box{
+  float: none;
+  width: 100%;
+}
+
+/* TRIED FOR FOOTER COORECTION */
+
+/* #page-container{
+  position: relative;
+  min-height: 100vh;
+} */
+
+/* #main-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} */
+
+/* ABOUT */
+
+#about .info-right, #about .info-left{
+  float: none;
+  width: 100%;
+}
+
+#about .info-left h1{
+  line-height: 2.5rem;
+}
+
+#about .info-left .boundary{
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+#about .info-right img{
+  display: none;
+}
+
+#fun{
+  height: 100%;
+}
+
+#fun .experience p{
+  line-height: 1.9rem;
+}
+
+/* CONTACT */
+#contact-details .box{
+  border-bottom: #444 solid 2px;
+}
+
+/* LOGIN PAGE */
+#login{
+  background: #fff;
+}
+
+
+

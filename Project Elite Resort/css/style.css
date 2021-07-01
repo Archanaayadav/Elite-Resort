@@ -1,0 +1,434 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main styling */
+html,body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8em;
+}
+
+a{
+  color: #333;
+  text-decoration: none;
+}
+
+h1,h2,h3{
+  padding-bottom: 12px;
+}
+
+p{
+  margin: 6px 0;
+}
+
+hr{
+  border: 1px black solid;
+}
+
+/* Utility Classes: used all over the site. not specific to particular area */
+
+.container{
+  margin: auto;
+  overflow: auto;
+  /* padding: 0 100px; */
+  padding-left: 50px;
+  padding-right: 100px;
+  /* max-width: 1500px; */
+}
+
+.primary-text{
+  color: #e49342;
+}
+
+.lead{
+  font-size: 21px;
+}
+
+.btn{
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  background: linear-gradient( to right, rgba(152,188,63,1), rgba(19,160,203,1));
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.btn:hover{
+  background: linear-gradient( to left, rgba(152,188,63,1), rgba(19,160,203,1));
+  color: rgb(7, 12, 36);
+
+}
+
+.click{
+  margin-top: 30px;
+  border-radius: 25px;
+}
+
+.bg1{
+  /* background: url(../pictures/beach.jpg) no-repeat center/cover; */
+  background: linear-gradient(rgba(255, 255, 255, 0.438), rgba(255, 255, 255, 0.432)), 
+              url("../pictures/beach.jpg") no-repeat center/cover;
+  width: 33.3%;
+  min-height: 100%;
+  color: black;
+
+}
+
+.bg2{
+  /* background: url(../pictures/resturant.jpg) no-repeat center/cover; */
+  background: linear-gradient(rgba(214, 207, 207, 0.555), rgba(175, 164, 164, 0.603)),
+              url("../pictures/resturant.jpg") no-repeat center/cover;
+  width: 33.3%;
+  min-height: 100%;
+  color: black;
+}
+
+.bg3{
+  /* background: url(../pictures/all.jpg) no-repeat center/cover ; */
+  background: linear-gradient(rgba(255, 255, 255, 0.507), rgba(255, 255, 255, 0.541)),
+              url("../pictures/all.jpg") no-repeat center/cover;
+  width: 33.3%;
+  min-height: 100%;
+  color: black;
+}
+
+.clr{
+  clear: both;
+}
+
+/* padding */
+
+  .py-1{ padding: 10px 0; }
+  .py-2{ padding: 20px 0; }
+  .py-3{ padding: 30px 0; }
+ 
+/* NAVBAR */
+
+#navbar{
+  background: #333;
+  color: #fff;
+  overflow: auto;
+  
+}
+
+#navbar a{
+  color: #fff;
+}
+
+#navbar a img{
+  width: 70px;
+  min-height: 70px;
+  float: left;
+  /* margin: 5px; */
+  border-radius: 5px;
+}
+
+#navbar ul{
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li{
+  float: left;  
+  font-size: 18px;
+}
+
+#navbar ul li a{
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover, #navbar ul li a.current{
+  background: #444;
+  color: #f7c08a;
+}
+
+.showcase{
+  background: linear-gradient(rgba(39, 34, 34, 0.116), rgba(54, 48, 48, 0.123)), url(../pictures/resort.jpg) no-repeat center center/cover;
+  height: 680px;
+  color: #fff;
+  text-align: center;
+  padding: 120px;
+}
+
+.showcase h1{
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+.showcase p{
+  padding-bottom: 25px;
+  line-height: 1.7em;
+}
+
+.explore{
+  color: rgb(180, 172, 172);
+  letter-spacing: 0.5em;
+  padding-bottom: 20px;
+}
+#info{
+  /* background: linear-gradient(to left, royalblue, orangered); */
+  background: linear-gradient(to left,rgb(34, 33, 33), #af3814);
+  color: #fff;
+  text-align: center;
+  /* padding-top: 10px; */
+  /* padding-bottom: 3px; */
+  font-size: 20px;
+  height: 380px;
+}
+
+#info .image{
+  float: left;
+  width: 50%;
+  background: url(../pictures/kerela.jpg) no-repeat ;
+  min-height: 100%;
+}
+
+#info .content{
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#info .content h4{
+  line-height: 1.8em;
+}
+
+/* feature section */
+
+#features{
+  height: 325px;
+}
+
+.box{
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i{
+  margin: 10px;
+}
+
+/* About page styling */
+
+#about .info-right{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about .info-right img{
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50% ;
+  border: 2px solid black;
+}
+
+#about .info-left{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  color: rgb(41, 56, 16);
+  font-size: 18px;
+}
+
+#about .info-left h1{
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+#about .info-left h1 span{
+  color: darkblue;
+}
+#about{
+  background: gray;
+}
+
+#about .info-left h3{
+  color: darkblue;
+  padding-bottom: 8px;
+  text-align: center;
+  font-size: 26px;
+}
+
+#about .info-left .boundary{
+  border: 2px solid black;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: rgb(219, 219, 194);
+}
+
+/* experience */
+
+#fun{
+  height: 600px;
+  background: linear-gradient(rgba(214, 207, 207, 0.397), rgba(175, 164, 164, 0.39)), url(../pictures/people.jpg) no-repeat center center/cover;
+  padding-top: 40px;
+}
+
+#fun .experience{
+  text-align: center;
+  margin-top: 15px;
+  
+}
+
+#fun .experience h2{
+  color: rgb(4, 53, 16);
+  font-size: 40px;
+  padding-bottom: 20px;
+  letter-spacing: 3pt;
+}
+
+#fun .experience p{
+  color: black;
+  font-size: 28px;
+  line-height: 1.5em;
+}
+
+/* contact page styling */
+
+#contact-form span{
+  color: #ee8318;
+}
+#contact-form .form-group{
+  margin-bottom: 20px;
+}
+
+#contact-form label{
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+#contact-form input, #contact-form textarea{
+  width: 100%;
+  padding: 10px;
+  border: #ddd 1px solid;
+}
+
+#contact-form textarea{
+  height: 200px;
+}
+
+/* #contact-form input:focus,
+#contact-form textarea:focus{
+  outline: none;
+  border-color: #af3814;
+} */
+
+ #contact-form button{
+  border-radius: 0;
+  border:rgb(7, 12, 36) 1px solid;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} 
+
+#contact-details{
+  background: #333;
+  color: whitesmoke;
+}
+
+.vl {
+  border-left: 1px solid white;
+}
+
+/* login page styling */
+#login{
+  background: url(../pictures/member.jpg);
+  min-height: 708px;
+  padding-top: 60px;
+}
+#login .container{
+  max-width: 400px;
+}
+#login .form-group{
+
+  margin-bottom: 20px;
+}
+#login input{
+  width: 100%;
+  padding: 10px;
+ 
+}
+#login label{
+
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+.form-wrap{
+  background: #fff;
+  padding: 15px 25px ;
+}
+
+.form-wrap h1, .form-wrap h3{
+  text-align: center;
+}
+.form-wrap h1{
+  font-size: 28px;
+}
+
+.form-wrap h1 span{
+  color: darkblue;
+}
+.form-wrap .form-group{
+  margin-top: 15px;
+}
+
+.form-wrap .form-group label{
+  display: block;
+}
+
+.form-wrap .form-group input{
+  width: 100%;
+  padding: 10px;
+  border: darkgray 1px solid;
+  border-radius: 5px;
+}
+
+.form-wrap .bottom-text{
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5em;
+  margin-top: 20px;
+}
+
+.form-wrap .bottom-text a{
+  color: blue;
+}
+
+.form-wrap .bottom-text a:hover{
+  color: red;
+}
+.form-wrap button{
+  border-radius: 2px;
+  margin-left: 40%; 
+}
+/* footer */
+
+#main-footer{
+  text-align: center;
+  background:  rgb(24, 20, 20);
+  color: #fff;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
